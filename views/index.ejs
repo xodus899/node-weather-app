@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <fieldset>
-        <form action="/" method="post">
+        <form id="weatherForm" action="/" method="post">
           <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
           <input type="submit" class="ghost-button" value="Get Weather">
         </form>
@@ -24,3 +24,11 @@
     </div>
   </body>
 </html>
+
+
+<script>
+ $("#weatherForm").submit( (e) => {
+   e.preventDefault();
+ })
+
+</script>
