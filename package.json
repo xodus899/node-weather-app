@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-weather-app",
+  "version": "1.0.0",
+  "description": "This app will return the weather to you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xodus899/node-weather.git"
+  },
+  "author": "Christopher Justice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xodus899/node-weather/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "yargs": "^11.0.0"
+  }
+}
